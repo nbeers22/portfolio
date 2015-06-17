@@ -31,6 +31,7 @@
 			<div class="container">
 				<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 				<div class="navbar-header page-scroll">
+					<img src="<?php bloginfo('template_directory'); ?>/images/NB_logo.png" alt="logo">
 					<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'secondary' ) ) { ?>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 						<span class="sr-only">Toggle navigation</span>
