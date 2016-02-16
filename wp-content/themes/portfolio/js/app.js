@@ -9,6 +9,9 @@ jQuery(document).ready(function(){
 	jQuery('#infinite-handle').addClass('btn btn-default');
 	jQuery('.tagcloud a').addClass('btn btn-default btn-xs');
 	jQuery('#submit, .tagcloud, button[type=submit], .comment-reply-link, .widget_rss ul, .select, table#wp-calendar, #infinite-handle').show("fast");
+
+    // Make name/title fadeIn on doc ready
+    jQuery('#name-title').fadeTo(3000,1);
 });
 
 // Handle new items appended by infinite scroll.

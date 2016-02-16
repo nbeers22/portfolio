@@ -280,6 +280,10 @@ form .row:first-child .floating-label-form-group {
     padding-left: 0;
 }
 
+.syntaxhighlighter {
+    padding: 10px 5px;
+}
+
 /*--------------------------------------------------------------
 4.1 Social Widget
 --------------------------------------------------------------*/
@@ -621,6 +625,14 @@ hr.contact:after {
     text-align: center;
     color: #fff;
     background: #35C0C2;
+}
+
+#bg-img {
+    padding: 50px;
+}
+
+#name-title {
+    opacity: 0;
 }
 
 .portfolio-header .container {

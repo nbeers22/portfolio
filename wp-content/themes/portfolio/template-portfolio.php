@@ -10,8 +10,8 @@ get_header(); ?>
 	<!-- Portfolio Header -->
     <header class="portfolio-header">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
+            <div class="row" id="bg-img">
+                <div id="name-title" class="col-lg-12">
 					<?php if ( ta_option( 'header_image' ) != '') : ?>
 						<img class="img-responsive" src="<?php echo ta_option( 'header_image', false, 'url' ); ?>">
 					<?php endif; ?>
